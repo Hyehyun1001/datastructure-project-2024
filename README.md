@@ -12,3 +12,11 @@
 2. 만약 한식을 선택했을 경우 한식의 목록을 보여주며 가장 칼로리가 적은 음식을 추천
 3. 목록 중 원하는 메뉴를 작성하면 해당 메뉴의 칼로리를 보여줌
 4. 목록의 메뉴 전체의 칼로리를 원할 경우 더보기를 입력
+
+### 실행 화면
+1. 한식, 일식, 중식, 양식 중 한식 선택
+   ![화면 캡처 2024-06-13 103351](https://github.com/Hyehyun1001/datastructure-project-2024/assets/131340894/1cc8cf60-2da6-425d-a58e-564881a9d55a)
+2. 한식의 목록 중 원하는 메뉴를 선택해 입력
+   ![화면 캡처 2024-06-13 104421](https://github.com/Hyehyun1001/datastructure-project-2024/assets/131340894/e6bcc52c-cf5f-4cca-a95d-b1dedec61c20)
+3. 한식 선택 후 더보기 입력
+   ![화면 캡처 2024-06-13 104230](https://github.com/Hyehyun1001/datastructure-project-2024/assets/131340894/b24c06d3-3170-4366-96f6-bbabb26616c4)
