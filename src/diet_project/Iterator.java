@@ -21,7 +21,7 @@ public class Iterator extends kiosk {
         System.out.println(word + "의 목록 " + kiosk.get(word) + "입니다");
         System.out.println("가장 적은 칼로리의 음식은 " + minKey + "입니다");
 
-        System.out.println("추가적인 정보를 보고 싶으시면 \"더보기\"을 입력해주세요.");
+        System.out.println("추가적인 정보를 보고 싶으시면 \"더보기\"나 음식 이름을 입력해주세요.");
 
 
         Scanner scanner = new Scanner(System.in);
