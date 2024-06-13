@@ -23,4 +23,5 @@
    ![화면 캡처 2024-06-13 104421](https://github.com/Hyehyun1001/datastructure-project-2024/assets/131340894/e6bcc52c-cf5f-4cca-a95d-b1dedec61c20)
 
 3. 한식 선택 후 더보기 입력
+   
    ![화면 캡처 2024-06-13 104230](https://github.com/Hyehyun1001/datastructure-project-2024/assets/131340894/b24c06d3-3170-4366-96f6-bbabb26616c4)
