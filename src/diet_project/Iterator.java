@@ -32,48 +32,37 @@ public class Iterator extends kiosk {
             }
         }
 
-          if ((word).equals("한식")){
-            if ((more).equals("고기")){
-            System.out.println((kioskMore.get("고기")+"Kcal"));
+        if ((word).equals("한식")){
+            switch ((more)) {
+                case "고기" -> System.out.println((kioskMore.get("고기") + "Kcal"));
+                case "밥" -> System.out.println((kioskMore.get("밥") + "Kcal"));
+                case "김치" -> System.out.println((kioskMore.get("김치") + "Kcal"));
+                case "국밥" -> System.out.println((kioskMore.get("국밥") + "Kcal"));
             }
 
-            if ((more).equals("밥")){
-            System.out.println((kioskMore.get("밥")+"Kcal"));
-            }
-
-            if ((more).equals("김치")){
-            System.out.println((kioskMore.get("김치")+"Kcal"));
-            }
         }
         if ((word).equals("일식")) {
-            if ((more).equals("초밥")) {
-                System.out.println((kioskMore.get("초밥") + "Kcal"));
-            }
-            if ((more).equals("우동")) {
-                System.out.println((kioskMore.get("우동") + "Kcal"));
-            }
-            if ((more).equals("돈가쓰")) {
-                System.out.println((kioskMore.get("우동") + "Kcal"));
+            switch ((more)) {
+            case "초밥" -> System.out.println((kioskMore.get("초밥") + "Kcal"));
+            case "우동" -> System.out.println((kioskMore.get("우동") + "Kcal"));
+            case "돈가쓰" -> System.out.println((kioskMore.get("돈가쓰") + "Kcal"));
             }
         }
         if ((word).equals("중식")) {
-            if ((more).equals("탕수육")) {
-                System.out.println((kioskMore.get("탕수육") + "Kcal"));
-            }
-            if ((more).equals("짜장면")) {
-                System.out.println((kioskMore.get("짜장면") + "Kcal"));
+            switch ((more)) {
+                case "탕수육" -> System.out.println((kioskMore.get("탕수육") + "Kcal"));
+                case "짜장면" -> System.out.println((kioskMore.get("짜장면") + "Kcal"));
             }
 
         }
         if ((word).equals("양식")) {
-            if ((more).equals("햄버거")) {
-                System.out.println((kioskMore.get("햄버거") + "Kcal"));
-            }
-            if ((more).equals("피자")) {
-                System.out.println((kioskMore.get("피자") + "Kcal"));
+            switch ((more)) {
+                case "햄버거" -> System.out.println((kioskMore.get("햄버거") + "Kcal"));
+                case "피자" -> System.out.println((kioskMore.get("피자") + "Kcal"));
             }
 
         }
+
 
 
     }
