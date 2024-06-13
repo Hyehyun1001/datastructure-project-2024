@@ -51,7 +51,10 @@ public class Iterator extends kiosk {
             switch ((more)) {
                 case "짜장면" -> System.out.println((kioskMore.get("짜장면") + "Kcal"));
                 case "짬뽕" -> System.out.println((kioskMore.get("짬뽕") + "Kcal"));
+<<<<<<< Updated upstream
                 case "탕수육" -> System.out.println((kioskMore.get("탕수육") + "Kcal"));
+=======
+>>>>>>> Stashed changes
                 case "유린기" -> System.out.println((kioskMore.get("유린기") + "Kcal"));
                 case "동파육" -> System.out.println((kioskMore.get("동파육") + "Kcal"));
             }
